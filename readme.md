@@ -1,0 +1,1 @@
+for now the use of readme will be for keeping information of what learned or and what not . 
