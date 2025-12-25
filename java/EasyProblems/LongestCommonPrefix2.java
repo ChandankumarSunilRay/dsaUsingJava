@@ -1,6 +1,6 @@
 package EasyProblems;
 
-public class LongestCommonPrefix {
+public class LongestCommonPrefix2 {
 
     public String longestCommonPrefix(String[] strs) {
         if (strs == null || strs.length == 0) return "";
@@ -17,8 +17,8 @@ public class LongestCommonPrefix {
     }
 
     public static void main(String[] args) {
-        LongestCommonPrefix lcp = new LongestCommonPrefix();
+        LongestCommonPrefix2 lcp = new LongestCommonPrefix2();
         String[] input = {"flower", "flow", "flight"};
-        System.out.println(lcp.longestCommonPrefix(input)); // fl
+        System.out.println(lcp.longestCommonPrefix(input));
     }
 }
