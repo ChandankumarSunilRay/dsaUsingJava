@@ -1,6 +1,6 @@
 package EasyProblems;
 
-public class removeDuplicates {
+public class removeDuplicates3 {
 
     public int removeDuplicates(int[] nums) {
         if (nums == null || nums.length == 0) {
@@ -19,7 +19,7 @@ public class removeDuplicates {
     }
 
     public static void main(String[] args) {
-        removeDuplicates solution = new removeDuplicates();
+        removeDuplicates3 solution = new removeDuplicates3();
 
         int[] nums = {1, 1, 2, 2, 3};
         int k = solution.removeDuplicates(nums);
