@@ -2,7 +2,7 @@ package EasyProblems;
 
 import java.util.Arrays;
 
-public class searchInsertPosition {
+public class searchInsertPosition6 {
 
     public int[] plusOne(int[] digits) {
         for (int i = digits.length - 1; i >= 0; i--) {
@@ -20,7 +20,7 @@ public class searchInsertPosition {
 
 
     public static void main(String[] args) {
-        searchInsertPosition obj = new searchInsertPosition();
+        searchInsertPosition6 obj = new searchInsertPosition6();
 
         int[] digits = {9, 9, 9};
         int[] result = obj.plusOne(digits);
