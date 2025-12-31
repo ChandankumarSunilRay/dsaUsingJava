@@ -1,6 +1,6 @@
 package EasyProblems;
 
-public class bestTimeToBuyAndSellTheStock {
+public class bestTimeToBuyAndSellTheStock8 {
 
     public int maxProfit(int[] prices) {
         if (prices == null || prices.length < 2) {
@@ -24,7 +24,7 @@ public class bestTimeToBuyAndSellTheStock {
     }
 
     public static void main(String[] args) {
-        bestTimeToBuyAndSellTheStock solution = new bestTimeToBuyAndSellTheStock();
+        bestTimeToBuyAndSellTheStock8 solution = new bestTimeToBuyAndSellTheStock8();
         int[] prices = {7, 1, 5, 3, 6, 4};
         int result = solution.maxProfit(prices);
         System.out.println("Maximum Profit: " + result);
