@@ -3,7 +3,7 @@ package EasyProblems;
 import java.util.HashMap;
 import java.util.Map;
 
-public class ongestHarmoniousSubsequence23 {
+public class longestHarmoniousSubsequence23 {
 
     public static int findLHS(int[] nums) {
         Map<Integer, Integer> freq = new HashMap<>();
