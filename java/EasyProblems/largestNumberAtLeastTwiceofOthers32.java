@@ -1,7 +1,7 @@
 package EasyProblems;
 
 public class largestNumberAtLeastTwiceofOthers32 {
-
+    
     public int dominantIndex(int[] nums) {
         int max = -1;
         int index = -1;
