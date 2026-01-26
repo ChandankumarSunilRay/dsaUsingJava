@@ -1,6 +1,6 @@
 package EasyProblems;
 
-public class shortestCompletingWord35 {
+public class shortestCompletingWord34 {
 
     public static String shortestCompletingWord(String licensePlate, String[] words) {
 
