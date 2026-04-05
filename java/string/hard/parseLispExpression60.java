@@ -26,7 +26,6 @@ public class parseLispExpression60 {
                     helper(tokens.get(2), new HashMap<>(map));
         }
 
-        // MULT
         if (op.equals("mult")) {
             return helper(tokens.get(1), new HashMap<>(map)) *
                     helper(tokens.get(2), new HashMap<>(map));
