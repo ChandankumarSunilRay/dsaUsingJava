@@ -2,7 +2,7 @@ package string.easy;
 
 import java.util.Scanner;
 
-public class convertA_numberToHexadecimal {
+public class convertA_numberToHexadecimal75 {
 
     public static String toHex(int num) {
         if (num == 0) return "0";
