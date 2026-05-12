@@ -11,7 +11,6 @@ public class truncateSentence90 {
             if (s.charAt(i) == ' ') {
                 count++;
 
-                // When k words are completed
                 if (count == k) {
                     return s.substring(0, i);
                 }
