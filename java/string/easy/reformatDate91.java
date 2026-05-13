@@ -1,18 +1,13 @@
 package string.easy;
 
 import java.util.*;
-
 public class reformatDate91 {
-
     public static String reformatDate(String date) {
-
         String[] parts = date.split(" ");
-
         String day = parts[0].replaceAll("[a-zA-Z]", "");
         if (day.length() == 1) {
             day = "0" + day;
         }
-
         Map<String, String> monthMap = new HashMap<>();
         monthMap.put("Jan", "01");
         monthMap.put("Feb", "02");
@@ -26,10 +21,8 @@ public class reformatDate91 {
         monthMap.put("Oct", "10");
         monthMap.put("Nov", "11");
         monthMap.put("Dec", "12");
-
         String month = monthMap.get(parts[1]);
         String year = parts[2];
-
         return year + "-" + month + "-" + day;
     }
 
