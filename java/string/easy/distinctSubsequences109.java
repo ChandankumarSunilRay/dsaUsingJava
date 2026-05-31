@@ -7,7 +7,7 @@ public class distinctSubsequences109 {
         int n = t.length();
 
         long[] dp = new long[n + 1];
-        dp[0] = 1; // empty string can always be formed
+        dp[0] = 1;
 
         for (int i = 0; i < m; i++) {
             for (int j = n - 1; j >= 0; j--) {
