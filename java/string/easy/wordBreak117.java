@@ -30,16 +30,17 @@ public class wordBreak117 {
 
         String s1 = "leetcode";
         List<String> dict1 = Arrays.asList("leet", "code");
-        System.out.println("Test 1: " + solution.wordBreak(s1, dict1)); // true
+        System.out.println("Test 1: " + solution.wordBreak(s1, dict1));
+
 
 
         String s2 = "applepenapple";
         List<String> dict2 = Arrays.asList("apple", "pen");
-        System.out.println("Test 2: " + solution.wordBreak(s2, dict2)); // true
+        System.out.println("Test 2: " + solution.wordBreak(s2, dict2));
 
 
         String s3 = "catsandog";
         List<String> dict3 = Arrays.asList("cats", "dog", "sand", "and", "cat");
-        System.out.println("Test 3: " + solution.wordBreak(s3, dict3)); // false
+        System.out.println("Test 3: " + solution.wordBreak(s3, dict3));
     }
 }
