@@ -1,8 +1,6 @@
 package string.easy;
-
 import java.util.HashMap;
 import java.util.Map;
-
 public class stickersToSpellWords123 {
 
     public int minStickers(String[] stickers, String target) {
@@ -69,9 +67,7 @@ public class stickersToSpellWords123 {
         }
 
         int result = (answer == Integer.MAX_VALUE) ? -1 : answer;
-
         memo.put(target, result);
-
         return result;
     }
 
