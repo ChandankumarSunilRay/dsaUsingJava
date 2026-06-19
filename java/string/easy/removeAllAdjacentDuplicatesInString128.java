@@ -11,9 +11,9 @@ public class removeAllAdjacentDuplicatesInString128 {
             int n = stack.length();
 
             if (n > 0 && stack.charAt(n - 1) == ch) {
-                stack.setLength(n - 1); // pop
+                stack.setLength(n - 1);
             } else {
-                stack.append(ch); // push
+                stack.append(ch);
             }
         }
 
