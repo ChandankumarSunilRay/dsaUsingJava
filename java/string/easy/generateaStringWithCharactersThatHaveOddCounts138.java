@@ -22,7 +22,7 @@ public class generateaStringWithCharactersThatHaveOddCounts138 {
     }
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);55
+        Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter n: ");
         int n = scanner.nextInt();
