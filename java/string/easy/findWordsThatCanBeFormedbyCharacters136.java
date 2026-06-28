@@ -1,5 +1,5 @@
 package string.easy;
-public class findWordsThatCanBeFormedbyCharacters135 {
+public class findWordsThatCanBeFormedbyCharacters136 {
 
     public int countCharacters(String[] words, String chars) {
         int[] available = new int[26];
@@ -30,8 +30,8 @@ public class findWordsThatCanBeFormedbyCharacters135 {
 class Main {
     public static void main(String[] args) {
 
-        findWordsThatCanBeFormedbyCharacters135 obj =
-                new findWordsThatCanBeFormedbyCharacters135();
+        findWordsThatCanBeFormedbyCharacters136 obj =
+                new findWordsThatCanBeFormedbyCharacters136();
 
         String[] words1 = {"cat", "bt", "hat", "tree"};
         String chars1 = "atach";
