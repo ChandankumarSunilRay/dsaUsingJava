@@ -28,9 +28,7 @@ public class splitaStringinBalancedStrings139 {
         splitaStringinBalancedStrings139 obj = new splitaStringinBalancedStrings139();
 
         int result = obj.balancedStringSplit(s);
-
         System.out.println("Maximum Balanced Substrings: " + result);
-
         sc.close();
     }
 }
