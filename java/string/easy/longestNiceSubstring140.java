@@ -1,7 +1,5 @@
 package string.easy;
-
 public class longestNiceSubstring140 {
-
     public String longestNiceSubstring(String s) {
         int n = s.length();
         String ans = "";
