@@ -1,5 +1,5 @@
 package string.easy;
-public class checkIfaWordOccursAsaPrefixofAnyWordinaSentence143 {
+public class checkIfaWordOccursAsaPrefixofAnyWordinaSentence144 {
     public int isPrefixOfWord(String sentence, String searchWord) {
         String[] words = sentence.split(" ");
         for (int i = 0; i < words.length; i++) {
@@ -10,8 +10,8 @@ public class checkIfaWordOccursAsaPrefixofAnyWordinaSentence143 {
         return -1;
     }
     public static void main(String[] args) {
-        checkIfaWordOccursAsaPrefixofAnyWordinaSentence143 solution =
-                new checkIfaWordOccursAsaPrefixofAnyWordinaSentence143();
+        checkIfaWordOccursAsaPrefixofAnyWordinaSentence144 solution =
+                new checkIfaWordOccursAsaPrefixofAnyWordinaSentence144();
 
         String sentence1 = "i love eating burger";
         String searchWord1 = "burg";
